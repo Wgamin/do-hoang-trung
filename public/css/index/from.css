@@ -1,0 +1,82 @@
+.contact-section {
+    padding: 4rem 0;
+    background-color: #f9fafb;
+    position: relative;
+}
+
+.container {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.form-wrapper {
+    background-color: rgba(38, 115, 217, 0.65);
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.form-content {
+    padding: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #2673d9;
+    box-shadow: 0 0 0 3px rgba(38, 115, 217, 0.3);
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.phone-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.phone-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 2rem;
+    background: linear-gradient(to right, #2563eb, #3b82f6);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.phone-link:hover {
+    background: linear-gradient(to right, #1e40af, #2563eb);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
